@@ -1,0 +1,10 @@
+@import "tailwindcss/base.css";
+@import "tailwindcss/components.css";
+@import "tailwindcss/utilities.css";
+@import '~@glidejs/glide/src/assets/sass/glide.core';
+@import '~@glidejs/glide/src/assets/sass/glide.theme';
+
+*{
+  font-family:'Roboto','Montserrat', sans-serif;
+}
+

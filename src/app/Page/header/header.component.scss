@@ -1,0 +1,161 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.logo img{
+  width: 50%;
+}
+form {
+  display: inline-block;
+  margin: 0 auto;
+}
+.pseudo-search {
+  border: 2px solid #ccc;
+  border-radius: 100px;
+  padding: 10px 15px;
+  width: 100%;
+}
+.pseudo-search input{
+  width: 100%;
+  font-size: 12px;
+}
+.input{
+  align-items: center;
+}
+input {
+  border: 0;
+  background-color: transparent;
+  outline: none;
+  height: 100%;
+}
+.pseudo-search:hover{
+  border: 1px solid #38a9f0;
+  -webkit-box-shadow: 0 0 5px rgba(56, 169, 240, 0.75);
+  -moz-box-shadow: 0 0 5px rgba(56, 169, 240, 0.75);
+  box-shadow: 0 0 5px rgba(56, 169, 240, 0.75);
+}
+.icono{
+  align-items: center;
+  color: #000;
+}
+.icono a{
+  font-weight: 300;
+  font-style: normal;
+  line-height: 22px;
+  font-family: "Montserrat", serif;
+  margin-bottom: 30px;
+}
+.bottom{
+  align-items: center;
+}
+.ii{
+  align-items: center;
+}
+.icono i{
+  font-size: 28px;
+}
+.redes{
+  border: brown;
+}
+.redes {
+  color: #002c69;
+  font-size: 20px;
+  align-items: center;
+  width: 22%;
+}
+.sub-menu2 {
+  width: 350px;
+  display: none;
+  height: auto;
+}
+.desplegar2:hover > .sub-menu2 {
+  display: flex;
+  position: absolute;
+  z-index: 3;
+}
+
+.menu2 {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.menu2 > div {
+  display: flex;
+  text-align: left;
+  width: 100%;
+  background: #7c7c7c;
+  padding: 8px 15px ;
+
+}
+.menu2 a:hover {
+  border-radius: 5px;
+  text-decoration: underline 2px;
+  text-decoration-color: #ffffff;
+}
+
+
+.sub-menu3 {
+  width: 350px;
+  display: none;
+  height: auto;
+}
+
+.desplegar3:hover > .sub-menu3 {
+  display: flex;
+  position: absolute;
+  z-index: 3;
+}
+
+.menu3 {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.menu3 > div {
+  display: flex;
+  text-align: left;
+  background: #7c7c7c;
+  padding: 8px 15px ;
+  width: 180px;
+}
+.menu3 a:hover {
+  border-radius: 5px;
+  text-decoration: underline 2px;
+  text-decoration-color: #ffffff;
+}
+.line{
+  width: 0;
+  opacity: 0;
+  border: #000000 solid 2px;
+  margin-top: -3px;
+  margin-bottom: 5px;
+}
+
+.desplegar2:hover > .line{
+  width: 100%;
+  opacity: 1;
+  transition-duration: 500ms;
+  animation-timing-function: ease-in;
+}
+.desplegar3:hover > .line{
+  width: 100%;
+  opacity: 1;
+  transition-duration: 500ms;
+  animation-timing-function: ease-in;
+}
+.cli1:hover > .line{
+  width: 100%;
+  opacity: 1;
+  transition-duration: 500ms;
+  animation-timing-function: ease-in;
+}
+li{
+  cursor: pointer;
+}

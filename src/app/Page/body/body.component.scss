@@ -1,0 +1,25 @@
+.gatos{
+  img{
+    height: 600px;
+    width: 100%;
+  }
+  background: black;
+
+  overflow: hidden;
+
+}
+.custom-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: lightpink;
+
+  &.custom-arrow-left {
+    left: 2.5%;
+  }
+
+  &.custom-arrow-right {
+    right: 2.5%;
+  }
+}
+
